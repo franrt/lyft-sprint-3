@@ -12,6 +12,13 @@ function validar() {
     return true;
 }
 
+//evento escuchar click de become a driver para disparar funcion validar()
+function clickValido() {
+    var boton = document.getElementById(btn);
+    boton.addEventListener("click", validar());
+}
+
+
 
 /*El tablero no aparce en el sitio debido a que no hice el evento para que al 
 presionar start cambiara al tablero, ni logré hacer el recorrido con el auto encima
