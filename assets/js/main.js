@@ -1,3 +1,18 @@
+//validar tel:
+
+function validar() {
+    var phone = document.getElementById(validNumber);
+    var regExp = /^\d{9}$/; //<--- con esto vamos a validar el numero
+
+    if (phone.value == "''") {
+        alert("Please fill with a valid 8 digit number.");
+    } else if (!regExp.test(phone.value))
+        alert("Please fill with a valid 8 digit number.");
+} else {
+    return true;
+}
+
+
 /*El tablero no aparce en el sitio debido a que no hice el evento para que al 
 presionar start cambiara al tablero, ni logré hacer el recorrido con el auto encima
 
