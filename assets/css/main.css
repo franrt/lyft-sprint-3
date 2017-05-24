@@ -13,6 +13,9 @@ body {
     background-color: #00b2a9;
 }
 
+
+/*Navbar*/
+
 .navbar {
     position: fixed;
     width: 100%;
@@ -54,6 +57,9 @@ li a:hover {
     color: #EDE9E2;
 }
 
+
+/* imagen fondo seccion 2*/
+
 .papi1 {
     position: static;
     width: 100%;
@@ -62,6 +68,9 @@ li a:hover {
 .foto {
     width: 100%;
 }
+
+
+/* Caja Inscripción Conductores */
 
 .box1 {
     background-color: #EDE9E2;
@@ -90,20 +99,6 @@ li a:hover {
 .box1 p {
     font-weight: 300;
     line-height: 20px;
-}
-
-.juego {
-    background-color: #00B2A9;
-    color: #EDE9E2;
-    width: 100%;
-    height: 800px;
-    display: inline-block;
-    font-size: 90px;
-    text-align: center;
-    vertical-align: center;
-    line-height: 200px;
-    font-weight: 700;
-    right: 400px;
 }
 
 .phone {
@@ -138,11 +133,38 @@ li a:hover {
 }
 
 #ico {
-    display: inline-block;
     position: absolute;
     padding-left: 10px;
-    color: white;
+    color: #EDE9E2;
 }
+
+
+/* Juego del auto */
+
+.play {
+    background-color: #00B2A9;
+    color: #EDE9E2;
+    width: 100%;
+    height: 500px;
+    display: inline-block;
+    font-size: 90px;
+    text-align: center;
+    vertical-align: center;
+}
+
+.juego {
+    width: 100%;
+    background-color: #EDE9E2;
+    color: #75726C;
+    font-size: 50px;
+    font-weight: 700;
+    position: relative;
+    top: 40px;
+    padding: 20px;
+}
+
+
+/* footer */
 
 .der {
     float: right;
@@ -152,16 +174,6 @@ li a:hover {
 .izq {
     float: left;
     margin-left: 400px;
-}
-
-.copyright {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 20px;
-    background-color: #706d68;
-    float: center;
-    margin-right: 20px;
 }
 
 .footer {
@@ -174,4 +186,14 @@ li a:hover {
     text-align: center;
     position: relative;
     clear: both;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+    background-color: #706d68;
+    float: center;
+    margin-right: 20px;
 }
